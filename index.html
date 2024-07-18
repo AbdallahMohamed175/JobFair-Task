@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+    <sesction id="customersTable"></sesction>
+    <div class="result pt-5  ">
+        <table id="example" class="table table-striped w-100 ">
+            <thead>
+                <tr class="text-center">
+                    <th onclick="sortTable(0)" scope="col">Id</tpih>
+                    <th onclick="sortTable(1)" scope="col">Name</th>
+                    <th onclick="sortTable(2)" scope="col"><span>Total amount</span> </th>
+                    <th onclick="" scope="col">Total amount Details</th>
+                </tr>
+
+            </thead>
+            <tbody id="display" class="text-center">
+            </tbody>
+        </table>
+        <div class="chart1 d-none  w-50 d-flex py-5">
+            <canvas class="w-100" id="barChart1" width="50" height="50"></canvas>
+        </div>
+        <div class="chart2 d-none w-50 d-flex py-5">
+            <canvas class="w-100" id="barChart2" width="50" height="50"></canvas>
+        </div>
+        <div class="chart3 d-none w-50 d-flex py-5">
+            <canvas class="w-100" id="barChart3" width="50" height="50"></canvas>
+        </div>
+        <div class="chart4 d-none w-50 d-flex py-5">
+            <canvas class="w-100" id="barChart4" width="50" height="50"></canvas>
+        </div>
+        <div class="chart5 d-none w-50 d-flex py-5">
+            <canvas class="w-100" id="barChart5" width="50" height="50"></canvas>
+        </div>
+    </div>
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js
+    "></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
